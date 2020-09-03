@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.square{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+			position: relative;
+			z-index: 1;
+		}
+		.line1{
+			height: 100px;
+			width: 20px;
+			background-color: white;
+			position: absolute;
+			top: 8%;
+			left: 6.5%;
+			z-index: 2;
+		}
+		.line2{
+			height: 20px;
+			width: 100px;
+			background-color: white;
+			position: absolute;
+			top: 90px;
+			left: 60px;
+			z-index: 3;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="square"><b>switzerland</b></div>
+	<div class="line1"></div>
+	<div class="line2"></div>
+</body>
+</html>
